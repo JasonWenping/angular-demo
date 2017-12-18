@@ -281,7 +281,7 @@ function solutionScroll(){
 	solute.onmousemove = function(e){
 		var left = getX(this,e);
 		var width = parseInt(solute.style.width);
-		console.log(width);
+		//console.log(width);
 		if(left < 600)
 		{
 			sBox[0].style.animationName = 'scrollRight';

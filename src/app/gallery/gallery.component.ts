@@ -13,19 +13,19 @@ export class GalleryComponent implements OnInit {
   }
   galleryUrl = [
     {
-      key:0,url:'images/73A34901F47A43249F43FAD4BBE9A01A.jpg'
+      key:0,url:'assets/images/73A34901F47A43249F43FAD4BBE9A01A.jpg'
     },
     {
-      key:1,url:'images/C9F0106EB5F04D3295A53171CB439DDF.jpg'
+      key:1,url:'assets/images/C9F0106EB5F04D3295A53171CB439DDF.jpg'
     },
     {
-      key:2,url:'images/E6EB2FE76B17440FA15FBA8FA8226BF1.jpg'
+      key:2,url:'assets/images/E6EB2FE76B17440FA15FBA8FA8226BF1.jpg'
     },
     {
-      key:3,url:'images/ED52C0039B744532BE7CF8EC6DDBD1B0.jpg'
+      key:3,url:'assets/images/ED52C0039B744532BE7CF8EC6DDBD1B0.jpg'
     },
     {
-      key:4,url:'images/F181EE38E04B4707A5A326E442E81D45.jpg'
+      key:4,url:'assets/images/F181EE38E04B4707A5A326E442E81D45.jpg'
     }
   ];
   link_title = [

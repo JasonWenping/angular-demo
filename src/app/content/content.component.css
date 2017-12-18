@@ -340,7 +340,8 @@ video{
 .ai_custom_photo{
 	width: 80px;
 	height: 80px;
-	margin: 0 auto 10px auto;
+    margin: 0 auto 10px auto;
+    background-size: cover;
 }
 .ai_custom_introduction{
 	width: 650px;
