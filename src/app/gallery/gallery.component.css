@@ -1,0 +1,108 @@
+
+
+h3,nav ul li,.nav_title_3 ul li,nav span,button{
+	font-size: 16px;
+	font-weight: bold;
+	color: #FFF;
+}
+
+.hoverButton,p,span{
+	font-size: 14px;
+	color: #FFF;
+}
+
+
+section{
+	width: 100%;
+	height: 530px;
+	overflow: hidden;
+}
+
+section ul{
+	width: 100%;
+	height: 530px;
+	display: block;
+	position: relative;
+	z-index: -1;
+}
+section ul li{
+	height: 530px;
+	width: 100%;
+	float: left;
+	position: absolute;
+    display: block;
+    background: url(images/73A34901F47A43249F43FAD4BBE9A01A.jpg) center no-repeat;
+}
+.gallery_bg{
+	height: 80px;
+	width: 100%;
+	background: url(images/gallery_bg.png) repeat-x;
+	position: absolute;
+	top: 60px;
+}
+.swich_icon{
+	width: 100%;
+	height: 48px;
+	position: absolute;
+	top: 240px;
+}
+.left,.right{
+	width: 37px;
+	height: 64px;
+	cursor: pointer;
+	display: none;
+}
+.left{	
+	background: url(/images/left_icon.png) no-repeat;
+	float: left;
+	margin-left: 100px; 
+}
+.right{
+	background: url(/images/right_icon.png) no-repeat;
+	float: right;
+	margin-right: 100px; 
+}
+#gallery li{
+    background-position: center;
+    background-size: cover;
+}
+
+
+
+#galButton{
+	width: 1000px;
+	height: 25px;
+	top:480px;
+	left: 170px;
+	margin: 0px auto;
+	position: absolute;
+	text-align: center;
+}
+.gal-btn-list{
+	height: 25px;
+	width: 180px;
+	line-height: 30px;
+	float: left;
+	position: relative;
+	cursor: pointer;
+}
+
+.lineButton{
+	width: 80px;
+	height: 4px;
+	opacity: 0.3;
+	background: #BABABA;
+	top: 12px;
+	left: 50px;
+	position: absolute;
+}
+.hoverButton{
+	display: none;
+	width: 180px;
+	height: 30px;
+	background: #00B7FF;
+	color: #FFF;
+	float: left;
+	position: absolute;
+}
+

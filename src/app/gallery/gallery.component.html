@@ -1,0 +1,24 @@
+<section>
+    <ul id="gallery">
+      <!--
+        <li *ngFor="let urls of galleryUrl" [ngStyle]="{'background-image':'url(' + urls.url + ')'}">
+        </li>
+      -->
+      <li *ngFor="let urls of galleryUrl">
+      </li>
+  		</ul>
+
+	  	 <div class="gallery_bg"></div>
+
+	  	 <div class="swich_icon">
+	  	 	<div class="left"></div>
+	  	 	<div class="right"></div>
+	  	 </div>
+	  	 <div id="galButton">
+	  	   	<div *ngFor="let link of link_title" class="gal-btn-list">
+	  	   		<div class="lineButton"></div>
+	  	   		<div class="hoverButton">{{ link.value }}</div>
+	  	   	</div>
+	  	   	
+         </div>
+</section>

@@ -1,0 +1,30 @@
+<footer>
+		<div class="fNav">
+		<div class="fNav_box">
+		<div class="link_list">
+			<h5>{{  linkTitle[0] }}</h5>
+			<p *ngFor="let link of links">{{ link }}</p>
+		</div>
+		<div class="link_list">
+			<h5>{{ linkTitle[1] }}</h5>
+			<p *ngFor="let link of links2">{{ link }}</p>
+		</div>
+		<div class="link_list">
+			<h5>{{ linkTitle[2] }}</h5>
+			<p *ngFor="let link of links3">{{ link }}</p>
+		</div>
+		<div class="link_list">
+			<h5>{{ linkTitle[3] }}</h5>
+			<p *ngFor="let link of links4">{{ link }}</p>
+		</div>
+		<img src="" />
+		</div>
+	</div>
+		<div class="copyRight">
+			<span>友情链接：</span>
+			<ul>
+				<li *ngFor="let flink of friend_link">{{ flink }} |</li>
+			</ul>
+			<span>© 2017 Baidu 使用百度前必读</span>
+		</div>
+	</footer>
